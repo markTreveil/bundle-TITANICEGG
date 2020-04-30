@@ -1,0 +1,4 @@
+['remote "localRemote"']
+url = /Users/mark.treveil/devenv/bundle-dvc-remote/TITANICEGG
+[core]
+remote = localRemote
