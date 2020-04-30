@@ -1,0 +1,57 @@
+{
+  "params": {
+    "ttPolicy": "SPLIT_SINGLE_DATASET",
+    "ssdSplitMode": "RANDOM",
+    "splitBeforePrepare": true,
+    "ssdSelection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "maxRecords": 100000,
+      "targetRatio": 0.02,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1
+    },
+    "ssdTrainingRatio": 0.8,
+    "ssdSeed": 1337,
+    "kfold": false,
+    "nFolds": 5,
+    "instanceIdRefresher": 0,
+    "subSamplingSeed": 1337
+  },
+  "generationDate": 1572443139238,
+  "policyId": "type\u003dSPLIT_SINGLE_DATASET,split\u003dRANDOM,splitBeforePrepare\u003dtrue,ds\u003dlabeled,sel\u003d(method\u003dhead-s,records\u003d100000),r\u003d0.8,s\u003d1337",
+  "instanceId": "4b3be7ab4c158b71584cf56e38304233-0",
+  "format": "csv1",
+  "schema": {
+    "columns": [
+      {"name":"PassengerId","type":"bigint"},
+      {"name":"Survived","type":"bigint"},
+      {"name":"Title","type":"string"},
+      {"name":"Sex","type":"string"},
+      {"name":"Age","type":"double"},
+      {"name":"Siblings - Spouse","type":"bigint"},
+      {"name":"Parents - Children","type":"bigint"},
+      {"name":"Ticket","type":"string","downcastedToStringFromMeaning":"LongMeaning"},
+      {"name":"Ticket class","type":"bigint"},
+      {"name":"Fare","type":"double"},
+      {"name":"Cabin","type":"string"},
+      {"name":"Port of embarkation","type":"string"}
+    ],
+    "userModified": false
+  },
+  "trainPath": "train.csv.gz",
+  "testPath": "test.csv.gz",
+  "trainRows": 713,
+  "testRows": 178,
+  "fullRows": 0
+}

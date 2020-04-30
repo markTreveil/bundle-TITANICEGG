@@ -1,0 +1,26 @@
+{
+    "NUM_DERIVATIVE": {
+        "shifts": {
+            "NUM_DERIVATIVE:log(Age)": -3.815427168803407, 
+            "NUM_DERIVATIVE:Parents - Children^2": 0.9985974754558192, 
+            "NUM_DERIVATIVE:log(Siblings - Spouse)": -0.11141194379293062, 
+            "NUM_DERIVATIVE:Siblings - Spouse^2": 0.9985974754558136, 
+            "NUM_DERIVATIVE:sqrt(Parents - Children)": 0.27058198851463394, 
+            "NUM_DERIVATIVE:log(Parents - Children)": 0.0622129422979751, 
+            "NUM_DERIVATIVE:Age^2": 0.8050490883590441, 
+            "NUM_DERIVATIVE:sqrt(Age)": 0.3067464652119764, 
+            "NUM_DERIVATIVE:sqrt(Siblings - Spouse)": 0.28286679734878245
+        }, 
+        "inv_scales": {
+            "NUM_DERIVATIVE:log(Age)": 0.13873827063414637, 
+            "NUM_DERIVATIVE:Parents - Children^2": 0.2972845350355765, 
+            "NUM_DERIVATIVE:log(Siblings - Spouse)": 2.172513868074694, 
+            "NUM_DERIVATIVE:Siblings - Spouse^2": 0.21778262745033614, 
+            "NUM_DERIVATIVE:sqrt(Parents - Children)": 1.8784169608947863, 
+            "NUM_DERIVATIVE:log(Parents - Children)": 3.3910520472207453, 
+            "NUM_DERIVATIVE:Age^2": 0.7059116456132357, 
+            "NUM_DERIVATIVE:sqrt(Age)": 2.123700952687412, 
+            "NUM_DERIVATIVE:sqrt(Siblings - Spouse)": 2.026628471051005
+        }
+    }
+}

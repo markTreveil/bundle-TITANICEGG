@@ -1,0 +1,196 @@
+{
+  "exportUserInfo": {
+    "exportedOn": "2020-04-30T16:12:12.583+0200",
+    "exportedBy": "admin"
+  },
+  "exportedWithOptions": {
+    "exportUploads": false,
+    "exportManagedFS": false,
+    "exportAnalysisModels": false,
+    "exportSavedModels": false,
+    "exportManagedFolders": false,
+    "exportAllInputDatasets": false,
+    "exportAllDatasets": false,
+    "exportAllInputManagedFolders": false,
+    "exportGitRepository": false,
+    "exportInsightsData": false,
+    "useManualPluginsInfo": false,
+    "includedDatasetsData": [
+      {
+        "name": "missing_survived_scored"
+      },
+      {
+        "name": "labeled"
+      },
+      {
+        "name": "data_prepared"
+      }
+    ],
+    "includedSavedModels": [
+      {
+        "id": "ZlvVnLTT"
+      }
+    ],
+    "includedManagedFolders": [],
+    "shareAllInputDatasets": false
+  },
+  "actualContent": {
+    "configContent": {
+      "datasets": 7,
+      "recipes": 6,
+      "savedModels": 1,
+      "managedFolders": 0,
+      "scenarios": 0,
+      "analysis": 2,
+      "jupyterNotebooks": 1,
+      "sqlNotebooks": 0,
+      "insights": 0,
+      "dashboards": 1
+    },
+    "includedDatasets": [
+      {
+        "name": "missing_survived_scored",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 1
+      },
+      {
+        "name": "labeled",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 1
+      },
+      {
+        "name": "data_prepared",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 1
+      }
+    ],
+    "includedSavedModels": [
+      {
+        "id": "ZlvVnLTT",
+        "name": "Prediction (LOGISTIC_REGRESSION) on labeled",
+        "size": 459387
+      }
+    ],
+    "includedManagedFolders": [],
+    "allAnalysisData": false,
+    "insightsData": false
+  },
+  "bundleId": "version001",
+  "originalProjectKey": "TITANICEGG",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "dev/doesnotmatter",
+  "generatedWithDSSConfVersion": "24",
+  "exportedWithPlugins": [
+    {
+      "pluginId": "geoadmin",
+      "version": "1.1.2"
+    },
+    {
+      "pluginId": "mjt-payday",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "mycustommacro",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "local-r-dev-setup",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "test10",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "email-tester-suite",
+      "version": "0.0.2"
+    },
+    {
+      "pluginId": "deeplearning-image-cpu",
+      "version": "0.1.4"
+    },
+    {
+      "pluginId": "dataiku-dss-plugin-ovh-logs",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "dataset-plugin",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "airtable",
+      "version": "0.1.1"
+    },
+    {
+      "pluginId": "colorbrewer-palettes",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "test",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "plugin51",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "builtin-macros",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "item-recommend",
+      "version": "0.1.3"
+    },
+    {
+      "pluginId": "test4",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "test5",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "test2",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "test3",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "test8",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "test9",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "geozip",
+      "version": "1.1.4"
+    },
+    {
+      "pluginId": "test6",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "test7",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "ovh-logs-import",
+      "version": "0.0.1"
+    }
+  ],
+  "requiredConnections": {
+    "filesystem_managed": {
+      "name": "filesystem_managed",
+      "type": "Filesystem"
+    }
+  },
+  "usedCodeEnvRefs": [],
+  "hasPartitionedDataset": false
+}

@@ -1,0 +1,6 @@
+{
+  "trainedWithDSSVersion": "5.1.4",
+  "trainedWithDSSConfVersion": "24",
+  "trainedWithDSSBackend": "PY_MEMORY",
+  "backendCompatibilityVersion": 18
+}

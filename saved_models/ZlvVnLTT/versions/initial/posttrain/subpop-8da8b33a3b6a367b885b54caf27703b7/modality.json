@@ -1,0 +1,24 @@
+{
+    "isDate": false, 
+    "weightedNbRecords": 178, 
+    "modalities": [
+        {
+            "count": 114, 
+            "index": 0, 
+            "weightedCount": 114, 
+            "value": "male", 
+            "filePath": "modality_perf_0.json"
+        }, 
+        {
+            "count": 64, 
+            "index": 1, 
+            "weightedCount": 64, 
+            "value": "female", 
+            "filePath": "modality_perf_1.json"
+        }
+    ], 
+    "feature": "Sex", 
+    "computed_as_type": "CATEGORY", 
+    "sameNumRowsAsSplit": true, 
+    "nbRecords": 178
+}

@@ -1,0 +1,31 @@
+{
+    "isDate": false, 
+    "weightedNbRecords": 178, 
+    "modalities": [
+        {
+            "count": 101, 
+            "index": 0, 
+            "weightedCount": 101, 
+            "value": 3.0, 
+            "filePath": "modality_perf_0.json"
+        }, 
+        {
+            "count": 47, 
+            "index": 1, 
+            "weightedCount": 47, 
+            "value": 1.0, 
+            "filePath": "modality_perf_1.json"
+        }, 
+        {
+            "count": 30, 
+            "index": 2, 
+            "weightedCount": 30, 
+            "value": 2.0, 
+            "filePath": "modality_perf_2.json"
+        }
+    ], 
+    "feature": "Ticket class", 
+    "computed_as_type": "CATEGORY", 
+    "sameNumRowsAsSplit": true, 
+    "nbRecords": 178
+}

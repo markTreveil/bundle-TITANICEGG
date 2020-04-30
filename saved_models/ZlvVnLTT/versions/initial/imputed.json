@@ -1,0 +1,18 @@
+{
+    "num_values": [
+        32.91587110799433, 
+        2.3099579242636747, 
+        29.78608695652174, 
+        0.5105189340813464, 
+        0.364656381486676
+    ], 
+    "cat_values": [], 
+    "cat_columns": [], 
+    "num_columns": [
+        "Fare", 
+        "Ticket class", 
+        "Age", 
+        "Siblings - Spouse", 
+        "Parents - Children"
+    ]
+}

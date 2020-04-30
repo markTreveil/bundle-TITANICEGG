@@ -1,0 +1,50 @@
+{
+    "shifts": [
+        32.91587110799433, 
+        2.3099579242636747, 
+        29.78608695652174, 
+        0.5105189340813464, 
+        0.364656381486676, 
+        0.8050490883590441, 
+        0.3067464652119764, 
+        -3.815427168803407, 
+        0.9985974754558136, 
+        0.28286679734878245, 
+        -0.11141194379293062, 
+        0.9985974754558192, 
+        0.27058198851463394, 
+        0.0622129422979751
+    ], 
+    "columns": [
+        "Fare", 
+        "Ticket class", 
+        "Age", 
+        "Siblings - Spouse", 
+        "Parents - Children", 
+        "NUM_DERIVATIVE:Age^2", 
+        "NUM_DERIVATIVE:sqrt(Age)", 
+        "NUM_DERIVATIVE:log(Age)", 
+        "NUM_DERIVATIVE:Siblings - Spouse^2", 
+        "NUM_DERIVATIVE:sqrt(Siblings - Spouse)", 
+        "NUM_DERIVATIVE:log(Siblings - Spouse)", 
+        "NUM_DERIVATIVE:Parents - Children^2", 
+        "NUM_DERIVATIVE:sqrt(Parents - Children)", 
+        "NUM_DERIVATIVE:log(Parents - Children)"
+    ], 
+    "inv_scales": [
+        0.01887857758669009, 
+        1.2048162082648861, 
+        0.07038582694206309, 
+        0.9172989588087348, 
+        1.2618109015803536, 
+        0.7059116456132357, 
+        2.123700952687412, 
+        0.13873827063414637, 
+        0.21778262745033614, 
+        2.026628471051005, 
+        2.172513868074694, 
+        0.2972845350355765, 
+        1.8784169608947863, 
+        3.3910520472207453
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "prediction_type": "BINARY_CLASSIFICATION", 
+    "weight": {
+        "weightMethod": "CLASS_WEIGHT"
+    }, 
+    "calibration": {
+        "calibrationMethod": "NO_CALIBRATION"
+    }, 
+    "backendType": "PY_MEMORY", 
+    "taskType": "PREDICTION", 
+    "executionParams": {
+        "sparkCheckpoint": "NONE", 
+        "containerSelection": {
+            "containerMode": "INHERIT"
+        }, 
+        "sparkParams": {
+            "sparkUseGlobalMetastore": false, 
+            "sparkExecutionEngine": "SPARK_SUBMIT", 
+            "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK", 
+            "pipelineAllowMerge": true, 
+            "pipelineAllowStart": true, 
+            "sparkConf": {
+                "inheritConf": "default", 
+                "conf": []
+            }, 
+            "sparkRepartitionNonHDFS": 1
+        }, 
+        "envSelection": {
+            "envMode": "INHERIT"
+        }
+    }, 
+    "target_variable": "Survived"
+}

@@ -1,0 +1,7 @@
+outs:
+- path: /Users/mark.treveil/devenv/dss-home/managed_datasets/TITANICEGG.missing_survived_scored
+  metric: false
+  cache: true
+  persist: false
+  md5: d751713988987e9331980363e24189ce.dir
+md5: a761912e9e62aca268772b9c77983e82

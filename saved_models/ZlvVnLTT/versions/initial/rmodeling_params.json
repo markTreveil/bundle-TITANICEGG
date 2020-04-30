@@ -1,0 +1,58 @@
+{
+    "computeLearningCurves": false, 
+    "algorithm": "LOGISTIC_REGRESSION", 
+    "logit_grid": {
+        "C": {
+            "gridMode": "EXPLICIT", 
+            "values": [
+                0.01, 
+                0.1, 
+                1.0, 
+                10.0, 
+                100.0
+            ]
+        }, 
+        "n_jobs": 2, 
+        "enabled": true, 
+        "penalty": {
+            "values": {
+                "l2": {
+                    "enabled": true
+                }, 
+                "l1": {
+                    "enabled": false
+                }
+            }
+        }, 
+        "multi_class": "ovr"
+    }, 
+    "autoOptimizeThreshold": true, 
+    "gridLength": 5, 
+    "metrics": {
+        "customEvaluationMetricGIB": true, 
+        "customEvaluationMetricNeedsProba": false, 
+        "thresholdOptimizationMetric": "F1", 
+        "liftPoint": 0.4, 
+        "costMatrixWeights": {
+            "fnGain": 0.0, 
+            "tpGain": 1.0, 
+            "tnGain": 0.0, 
+            "fpGain": -0.3
+        }, 
+        "evaluationMetric": "ROC_AUC"
+    }, 
+    "forcedClassifierThreshold": 0.0, 
+    "skipExpensiveReports": false, 
+    "max_ensemble_nodes_serialized": 0, 
+    "grid_search_params": {
+        "nIter": 0, 
+        "nJobs": 4, 
+        "randomized": true, 
+        "shuffleIterations": 1, 
+        "mode": "KFOLD", 
+        "timeout": 0, 
+        "splitRatio": 0.8, 
+        "nFolds": 3, 
+        "stratified": true
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "mymeaning",
+  "label": "my meaning",
+  "normalizationMode": "EXACT",
+  "detectable": false,
+  "type": "DECLARATIVE"
+}

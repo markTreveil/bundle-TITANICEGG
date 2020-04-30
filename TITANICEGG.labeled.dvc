@@ -1,0 +1,7 @@
+outs:
+- path: /Users/mark.treveil/devenv/dss-home/managed_datasets/TITANICEGG.labeled
+  metric: false
+  cache: true
+  persist: false
+  md5: 06f6a9421c5bb9ce467d0e2f2c50732e.dir
+md5: d49835556e5d8be55771e72440c7ef1f

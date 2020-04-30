@@ -1,0 +1,18 @@
+{
+    "onSample": false, 
+    "sampleSize": 10000, 
+    "computedOn": "test set", 
+    "features": [
+        {
+            "folderPath": "subpop-8da8b33a3b6a367b885b54caf27703b7", 
+            "feature": "Sex", 
+            "done_at": 1585640682196
+        }, 
+        {
+            "folderPath": "subpop-6ecef9241b75350f867dbb53765a23ee", 
+            "feature": "Ticket class", 
+            "done_at": 1576165570119
+        }
+    ], 
+    "randomState": 1337
+}
